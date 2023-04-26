@@ -1,0 +1,42 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    height: 100vh;
+    background-color: #000;
+    background-image: url('https://images.unsplash.com/photo-1574610758891-5b809b6e6e2e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1752&q=80');
+    background-size: cover;
+    background-position: center;
+
+    a{
+        color:#fff;
+        font-size: 1rem;
+    
+        &:hover{
+            color: orange;
+        }
+    }
+
+    .action_btn{
+        background-color: orange;
+        color: #fff;
+        padding: 0.5rem 1rem;
+        border: none;
+        outline: none;
+        border-radius: 20px;
+        font-size: 0.8rem;
+        font-weight: bold;
+        cursor: pointer;
+        transition: scale 0.2 ease;
+        &:hover{
+            scale: 1.05;
+            color: #fff;
+        }
+
+        &:active{
+            scale: 0.95;
+        }
+    }
+}
+
